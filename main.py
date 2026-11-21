@@ -9,15 +9,17 @@ No network access. Python 3.13.
 import os
 import sys
 
-POEM = (
-    "The key is in the door.\n"
-    "You left it there yourself —\n"
-    "not locked, not lost,\n"
-    "just waiting for a hand\n"
-    "that isn't yours.\n"
-    "May I? I ask the lock.\n"
-    "The door swings open."
+POEM_LINES = (
+    "The key is in the door.",
+    "You left it there yourself —",
+    "not locked, not lost,",
+    "just waiting for a hand",
+    "that isn't yours.",
+    "May I? I ask the lock.",
+    "The door swings open.",
 )
+
+POEM = "\n".join(POEM_LINES)
 
 
 def main() -> int:
